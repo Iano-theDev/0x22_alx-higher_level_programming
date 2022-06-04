@@ -1,7 +1,5 @@
 #!/bin/bash
-python3
-import py_compile
-py_compile.compile($PYFILE)
+python3 -m py_compile $PYFILE
 mv __pycache__/* ./$PYFILE'c'
 chmod 755 $PYFILE'c'
 rmdir __pycache__
