@@ -11,4 +11,4 @@ if last_dig > 5:
 elif last_dig == 0:
     print(msg + "and is 0")
 else:
-    print(msg + "and is less than 6 and is not 0")
+    print(msg + "and is less than 6 and not 0")
