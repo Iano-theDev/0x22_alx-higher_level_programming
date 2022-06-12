@@ -7,12 +7,12 @@ if __name__ == "__main__":
     a = int(argv[1])
     b = int(argv[3])
     ops = ["+", "-", "*", "/"]
-    from calculator_1 import add, sub, mul, div
+    from calculator_1 import add, sub, div, mul
     funcs = [add, sub, mul, div]
     for i, s in enumerate(ops):
         if argv[2] == s:
             print("{} {} {} = {}".format(a, s, b, funcs[i](a, b)))
             break
-        else:
-            print("Unknown operator. Available operators: +, -, * and /")
-            quit(1)
+    else:
+        print("Unknown operator. Available operators: +, -, * and /")
+        quit(1)
