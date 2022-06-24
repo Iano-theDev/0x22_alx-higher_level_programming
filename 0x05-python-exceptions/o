@@ -1,3 +1,0 @@
-#!/bin/bash 
-code $1
-echo "Oppened $1"
