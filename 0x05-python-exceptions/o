@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "#!/usr/bin/python3" >> $1
 code $1
 echo "opened $1"
