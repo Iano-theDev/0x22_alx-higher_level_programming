@@ -8,4 +8,5 @@ def write_file(filename="", text=""):
     '''Writes a string to a file (UTF8) and returns number of characters written'''
     with open(filename, 'r+', encoding="utf-8") as f:
         f.write(text)
+        return (len.text)
         
