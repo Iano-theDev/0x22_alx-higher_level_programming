@@ -27,10 +27,7 @@ def to_json(self, attrs=None):
     return new_dict
 
 
-def reload_from_json(self, json):
-    '''replaces all attributes of the student instance'''
-    for key in json:
-        try:
+    def reload_from_json(self, json):
+        """Replaces all attributs of Student instance from json"""
+        for key in json:
             setattr(self, key, json[key])
-        except Exception:
-            pass
