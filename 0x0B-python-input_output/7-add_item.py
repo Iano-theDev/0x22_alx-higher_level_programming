@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 '''
-adds all arguments to a Python list, then saves them to a file
+adds all arguments to a Python list, 
+then saves them to a file
 '''
 
 from sys import argv
