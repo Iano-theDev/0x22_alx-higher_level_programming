@@ -49,7 +49,7 @@ Checking for more than 2 args:
 	>>> say_my_name("Hello", "World", "hi")
 	Traceback (most recent call last):
 	...
-	TypeError: say_my_name() takes from 1 to 2 positional but 3 were given
+	TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
 
 
 
