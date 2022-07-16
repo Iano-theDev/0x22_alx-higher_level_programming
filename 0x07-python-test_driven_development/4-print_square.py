@@ -2,7 +2,7 @@
 '''Contains print_square module'''
 
 
-def print_sqaure(size):
+def print_square(size):
     '''
     prints a square with the character #
 
