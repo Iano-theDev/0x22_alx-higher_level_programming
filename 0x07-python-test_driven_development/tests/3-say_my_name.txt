@@ -41,6 +41,10 @@ Checking for normal use:
 	...
 	TypeError: last_name must be a string
 
+Checking for firstname(string) and lastname(string):
+	>>> say_my_name("Ian", "Kamande")
+	My name is Ian Kamande
+	
 Checking for more than 2 args:
 	>>> say_my_name("Hello", "World", "hi")
 	Traceback (most recent call last):
