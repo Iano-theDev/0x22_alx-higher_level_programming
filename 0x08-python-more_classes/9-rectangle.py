@@ -9,17 +9,6 @@ class Rectangle:
 
     number_of_instances = 0
     print_symbol = "#"
-
-    def __init__(self, width=0, height=0):
-        """Initializes the rectangle"""
-        self.height = height
-        self.width = width
-        Rectangle.number_of_instances += 1
-
-    def __del__(self):
-        """prints a string when a Rectangle instance has been deleted"""
-        print("Bye rectangle...")
-        Rectangle.number_of_instances -= 1
  
     @classmethod
     def square(cls, size=0):
@@ -36,6 +25,17 @@ class Rectangle:
         if rect_1.area() < rect_2.area():
             return rect_2
         return rect_1
+
+    def __init__(self, width=0, height=0):
+        """Initializes the rectangle"""
+        self.height = height
+        self.width = width
+        Rectangle.number_of_instances += 1
+
+    def __del__(self):
+        """prints a string when a Rectangle instance has been deleted"""
+        print("Bye rectangle...")
+        Rectangle.number_of_instances -= 1
 
     @property
     def width(self):
