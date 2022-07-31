@@ -51,4 +51,4 @@ class Rectangle:
         Public instance method perimeter.
         Returns the perimeter of a given rectangle
         """
-        return ((self.__height + self.__width) * 2)
+        return ((self.__height * 2) + (self.__width * 2))
