@@ -1,0 +1,26 @@
+
+Checking for empty list:
+	>>> l = MyList()
+    >>> l.print_sorted()
+	[]
+
+Checking that MyList inherits from list:
+	>>> issubclass(MyList, list)
+	True
+
+Checking that appendng works:
+	>>> l.append(1)
+	>>> l.append(2)
+	>>> l.append(3)
+	>>> l.append(4)
+	>>> print(l)
+	[1, 2, 3, 4]
+
+Checking for list already in correct order:
+	>>> l.print_sorted()
+	[1, 2, 3, 4]
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
