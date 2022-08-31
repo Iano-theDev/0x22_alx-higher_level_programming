@@ -1,3 +1,6 @@
+Importing the function from the module:
+    >>> MyList = __import__("1-my_list").MyList
+
 Checking for module documentation:
 	>>> m = __import__("1-my_list").__doc__
 	>>> len(m) > 1
@@ -17,7 +20,7 @@ Checking for function documentation:
 Checking for empty list:
 	>>> l = MyList()
     >>> l.print_sorted()
-	[]
+    []
 
 Checking that MyList inherits from list:
 	>>> issubclass(MyList, list)
