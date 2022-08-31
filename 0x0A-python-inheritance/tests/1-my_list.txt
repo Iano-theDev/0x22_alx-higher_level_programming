@@ -1,3 +1,18 @@
+Checking for module documentation:
+	>>> m = __import__("1-my_list").__doc__
+	>>> len(m) > 1
+	True
+
+Checking for class documentation:
+	>>> d = __import__("1-my_list").MyList.__doc__
+	>>> len(d) > 1
+	True
+
+Checking for function documentation:
+	>>> c = __import__("1-my_list").MyList.__doc__
+	>>> len(c) > 1
+	True
+
 
 Checking for empty list:
 	>>> l = MyList()
