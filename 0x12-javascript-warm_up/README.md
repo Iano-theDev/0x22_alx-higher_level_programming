@@ -37,4 +37,7 @@ You are not allowed to use var
 * 6. Loop to Languages:
     Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop.
 
-* 7. 
+* 7. I love C
+    Write a script that prints x times “C is fun”
+
+* 8. 
