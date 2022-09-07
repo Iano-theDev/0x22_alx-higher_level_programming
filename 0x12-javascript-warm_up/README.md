@@ -40,4 +40,5 @@ You are not allowed to use var
 * 7. I love C
     Write a script that prints x times “C is fun”
 
-* 8. 
+* 8. Square:
+    Write a script that prints a square.
