@@ -1,9 +1,10 @@
 #!/usr/bin/node
-const firstArgument = process.argv[2];
-if (firstArgument === undefined || isNaN(firstArgument)) {
+const sqSize = process.argv[2];
+let i;
+if (isNaN(sqSize)) {
   console.log('Missing size');
 } else {
-  for (let i = 0; i < firstArgument; i++) {
-    console.log('X'.repeat(firstArgument));
+  for (i = 0; i < sqSize; i++) {
+    console.log('X'.repeat(sqSize));
   }
 }
