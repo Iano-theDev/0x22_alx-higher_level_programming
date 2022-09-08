@@ -54,8 +54,10 @@ YOUR CODE HERE
 */
 console.log(myObject);
 ```
+13. Add file:
+    Write a function that returns the addition of 2 integers.
 
-
+14. 
     
 
 
