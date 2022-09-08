@@ -46,3 +46,7 @@ You are not allowed to use var
 * 9. Add:
     Write a script that prints the addition of 2 integers
 
+* 10. Factorial:
+    Write a script that computes and prints a factorial
+    
+
