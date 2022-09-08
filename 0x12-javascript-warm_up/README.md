@@ -8,6 +8,9 @@ Javascript is amaizing
 1. 3 languages:
     Write a script that prints 3 lines:
 
+2. Arguments:
+    Write a script that prints a message depending of the number of arguments passed:
+
 3. Value of my argument:
     Write a script that prints the first argument passed to it:
 
@@ -37,6 +40,8 @@ Javascript is amaizing
 
 12. Object:
     Update this script to replace the value 12 with 89:
+
+
 ```r
 #!/usr/bin/node
 const myObject = {
