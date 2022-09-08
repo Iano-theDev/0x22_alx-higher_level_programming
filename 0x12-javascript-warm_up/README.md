@@ -42,3 +42,7 @@ You are not allowed to use var
 
 * 8. Square:
     Write a script that prints a square.
+
+* 9. Add:
+    Write a script that prints the addition of 2 integers
+
