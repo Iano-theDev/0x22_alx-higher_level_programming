@@ -52,3 +52,22 @@ You are not allowed to use var
 * 11. second biggest!
     Write a script that searches the second biggest integer in the list of arguments.
 
+* 12. Object:
+    Update this script to replace the value 12 with 89:
+```r
+#!/usr/bin/node
+const myObject = {
+type: 'object',
+value: 12
+};
+console.log(myObject);
+/*
+YOUR CODE HERE
+*/
+console.log(myObject);
+```
+
+
+    
+
+
