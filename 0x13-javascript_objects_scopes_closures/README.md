@@ -13,3 +13,10 @@ Write a clss Rectangle that defines a rectangle:
 ### 3. Rectangle #3
 Write a class Rectangle that defines a rectangle
 Create an instance method called print() that prints the rectangle using the character X.
+
+### 4. RE=ectagle #4
+write a class Rectangle thta defines a rectagle:
+* instance method print();
+* instance mehtod rotate() - exchanges the width and the height of the rectangle.
+* instance method double() - multiplies the width and the height of the rectangle by 2.
+
