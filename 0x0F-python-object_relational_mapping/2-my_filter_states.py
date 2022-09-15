@@ -18,7 +18,5 @@ if __name__ == "__main__":
     for row in rows:
         if row[1] == argv[4]:
             print(row)
-        else:
-            print("the state {:s} is not in our database".format(argv[4]))
         cursor.close()
         db.close()
