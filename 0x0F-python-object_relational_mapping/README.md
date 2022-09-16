@@ -37,3 +37,7 @@ database hbtn_0e_4_usa
 ## 6 First State model
 Write a python file that contains the class definition of a 
 State and an instance Base = declarative_base()
+
+## 7 All states via SQLAlchemy...
+Write a script that lists all State objects from the database 
+hbtn_0e_6_us
