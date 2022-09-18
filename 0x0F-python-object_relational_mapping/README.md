@@ -53,3 +53,7 @@ letter a from the database hbtn_0e_6_usa
 ## 10 Get a state
 Write a script that prints the State object with the name 
 passed as argument from the database hbtn_0e_6_usa\
+
+## 11 Add a new state
+Write a script that adds the State object “Louisiana” to the 
+database hbtn_0e_6_usa
