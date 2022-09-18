@@ -57,3 +57,7 @@ passed as argument from the database hbtn_0e_6_usa\
 ## 11 Add a new state
 Write a script that adds the State object “Louisiana” to the 
 database hbtn_0e_6_usa
+
+## 12 Update a state
+Write a script that changes the name of a State object from 
+the database hbtn_0e_6_usa
