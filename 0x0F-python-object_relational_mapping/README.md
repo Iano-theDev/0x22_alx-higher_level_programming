@@ -52,7 +52,7 @@ letter a from the database hbtn_0e_6_usa
 
 ## 10 Get a state
 Write a script that prints the State object with the name 
-passed as argument from the database hbtn_0e_6_usa\
+passed as argument from the database hbtn_0e_6_usa
 
 ## 11 Add a new state
 Write a script that adds the State object “Louisiana” to the 
@@ -61,3 +61,7 @@ database hbtn_0e_6_usa
 ## 12 Update a state
 Write a script that changes the name of a State object from 
 the database hbtn_0e_6_usa
+
+## 13 Delete states
+Write a script that deletes all State objects with a name 
+containing the letter a from the database hbtn_0e_6_usa
