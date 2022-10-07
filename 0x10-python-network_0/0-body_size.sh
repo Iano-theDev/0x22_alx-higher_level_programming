@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # script takes in a url and sends a request to that url 
 # displays the size of the body of the response
 
