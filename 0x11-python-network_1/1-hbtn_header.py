@@ -9,4 +9,3 @@ if __name__ == "__main__":
     from sys import argv
     with request.urlopen(argv[1]) as req:
         print(req.headers.get('X-Request-Id'))
-       
