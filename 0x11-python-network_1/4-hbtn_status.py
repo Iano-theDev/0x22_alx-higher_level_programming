@@ -3,9 +3,9 @@
 
 
 if __name__ == "__main__":
-    import urllib.request as request
-    import urllib.parse as parse
-    req = request.Request.get("https://alx-intranet.hbtn.io/status")
+    import requests
+    req = requests.get("https://alx-intranet.hbtn.io/status")
+    text = r.text
     print("Body response:")
-    print("\t- type: {}".format(type(req)))
-    print("\t- content: {}".format("content"))
+    print("\t- type: {}".format(type(text)))
+    print("\t- content: {}".format(text))
