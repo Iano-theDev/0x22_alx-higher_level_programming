@@ -6,7 +6,8 @@ displays the body of the response"""
 if __name__ == "__main__":
     import requests
     from sys import argv
-    try:
-        requests.get(argv[1])
-    except requests.exceptions.HTTPError as e:
-        print("Error code {}".format(e.response.text))
+    e = requests.get(argv[1])
+    if e.status_code >= 400:
+        print("Error code: {}".format(e.status_code))
+    else:
+        print(e.text)
